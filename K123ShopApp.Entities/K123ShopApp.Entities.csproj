@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Concrete\" />
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\UserDtos\" />
+    <None Remove="SharedModels\" />
+    <None Remove="Dtos\OrderDtos\" />
+    <None Remove="Dtos\CategoryDtos\" />
+    <None Remove="Dtos\ProductDtos\" />
+    <None Remove="Dtos\SpecificationDtos\" />
+    <None Remove="Dtos\WishListDtos\" />
+    <None Remove="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Concrete\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\UserDtos\" />
+    <Folder Include="SharedModels\" />
+    <Folder Include="Dtos\OrderDtos\" />
+    <Folder Include="Dtos\CategoryDtos\" />
+    <Folder Include="Dtos\ProductDtos\" />
+    <Folder Include="Dtos\SpecificationDtos\" />
+    <Folder Include="Dtos\WishListDtos\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\K123ShopApp.Core\K123ShopApp.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3rP79RRcVJoHOWV8kqHQ9FNjxm6zoAtAulex/90G6FA=",
+  "Source": "K123ShopApp.WebApi",
+  "BasePath": "_content/K123ShopApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

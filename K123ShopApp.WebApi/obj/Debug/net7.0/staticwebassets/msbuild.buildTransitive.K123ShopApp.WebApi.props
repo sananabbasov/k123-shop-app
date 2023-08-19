@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/K123ShopApp.WebApi.props" />
+</Project>
