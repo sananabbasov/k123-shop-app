@@ -20,6 +20,9 @@ namespace K123ShopApp.Business.Concrete
             _mapper = mapper;
         }
 
+        public IResult TestMethod(){
+            return new SuccessResult();
+        }
         public IResult CreateCategory(CategoryCreateDto categoryCreate)
         {
             // business ruless => CheckCategoryName

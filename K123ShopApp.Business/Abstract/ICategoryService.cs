@@ -12,6 +12,7 @@ namespace K123ShopApp.Business.Abstract
 		IDataResult<List<CategoryDto>> GetCategories();
 		IDataResult<List<CategoryHomeDto>> GetHomeCagories();
 		IDataResult<List<CategoryNavbarDto>> GetNavbarCategories();
+		IResult TestMethod();
 	}
 }
 
