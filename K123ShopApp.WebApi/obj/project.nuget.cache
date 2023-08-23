@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H0bZ+k9E6Ig8fZAD+083wvH9f4WamxW7CcwwQM6j+NZOeWxYqBSO7Mzq9cYB1C+9nCZBU3gxGrV7fb0EU1t9cg==",
+  "dgSpecHash": "VXT2aMgUL7RG843O8Oxvb/lQjM+D25/h2it38kVEI/cz31feuAD8ixIZy3M9u6jvOTcTlgdFv9NZyWJddFI0sg==",
   "success": true,
   "projectFilePath": "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.WebApi/K123ShopApp.WebApi.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "/Users/sanan/.nuget/packages/masstransit.extensions.dependencyinjection/7.3.1/masstransit.extensions.dependencyinjection.7.3.1.nupkg.sha512",
     "/Users/sanan/.nuget/packages/masstransit.rabbitmq/8.0.16/masstransit.rabbitmq.8.0.16.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.10/microsoft.aspnetcore.authentication.jwtbearer.7.0.10.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.1.0/microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/microsoft.aspnetcore.mvc.versioning.apiexplorer/5.1.0/microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.9/microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

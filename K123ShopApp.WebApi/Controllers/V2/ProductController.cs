@@ -11,9 +11,11 @@ using Microsoft.Net.Http.Headers;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace K123ShopApp.WebApi.Controllers
+namespace K123ShopApp.WebApi.Controllers.V2
 {
-    [Route("api/[controller]")]
+    [ApiController]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -23,6 +25,7 @@ namespace K123ShopApp.WebApi.Controllers
             _productService = productService;
         }
 
+        [MapToApiVersion("2.0")]
         [Authorize(Roles = "Admin,User")]
         [HttpPost("create")]
         public IActionResult CreateProduct([FromBody] ProductCreateDto productCreate)
@@ -35,6 +38,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
+        [MapToApiVersion("2.0")]
         [HttpPut("update")]
         public IActionResult UpdateProduct([FromBody] ProductUpdateDto productUpdate)
         {
@@ -42,6 +46,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
+        [MapToApiVersion("2.0")]
         [HttpGet("get/{id}")]
         public IActionResult GetProductById(int id)
         {
@@ -49,6 +54,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
+        [MapToApiVersion("2.0")]
         [HttpGet("getall")]
         public IActionResult GetAllProducts()
         {
@@ -56,6 +62,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
+        [MapToApiVersion("2.0")]
         [HttpGet("featured")]
         public IActionResult GetFeaturedProducts()
         {
@@ -63,6 +70,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
+        [MapToApiVersion("2.0")]
         [HttpGet("recent")]
         public IActionResult GetRecentProducts()
         {
@@ -70,6 +78,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
+        [MapToApiVersion("2.0")]
         [HttpGet("filter")]
         public IActionResult FilterProducts([FromQuery] int categoryId, [FromQuery] decimal minPrice, [FromQuery] decimal maxPrice)
         {
@@ -77,7 +86,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
-
+        [MapToApiVersion("2.0")]
         [HttpDelete("delete/{id}")]
         public IActionResult RemoveProduct(int id)
         {

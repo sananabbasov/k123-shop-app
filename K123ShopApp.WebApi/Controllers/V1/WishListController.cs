@@ -10,9 +10,11 @@ using Microsoft.Net.Http.Headers;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace K123ShopApp.WebApi.Controllers
+namespace K123ShopApp.WebApi.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ApiController]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class WishListController : ControllerBase
     {
 

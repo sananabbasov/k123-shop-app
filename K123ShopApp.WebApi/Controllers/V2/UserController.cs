@@ -8,10 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace K123ShopApp.WebApi.Controllers
+namespace K123ShopApp.WebApi.Controllers.V2
 {
-    // sitename.com/api/user/register
-    [Route("api/[controller]")]
+    [ApiController]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class UserController : ControllerBase
     {
         private readonly IAppUserService _appUserService;
@@ -21,6 +22,7 @@ namespace K123ShopApp.WebApi.Controllers
             _appUserService = appUserService;
         }
 
+        [MapToApiVersion("2.0")]
         [HttpPost("Login")]
         public IActionResult UserLogin([FromBody]UserLoginDto userLogin)
         {
@@ -28,7 +30,7 @@ namespace K123ShopApp.WebApi.Controllers
             return Ok(result);
         }
 
-
+        [MapToApiVersion("2.0")]
         [HttpPost("Register")]
         public async Task<IActionResult> UserRegister([FromBody] UserRegisterDto userRegister)
         {
@@ -37,6 +39,7 @@ namespace K123ShopApp.WebApi.Controllers
         }
 
         // sitename/api/user?email=ehmed@comapar.edu.az&token=skjdf-sdfa-sdfsd-fsdf
+        [MapToApiVersion("2.0")]
         [HttpGet("VerifyEmail")]
         public IActionResult VerifyEmail([FromQuery]string email, [FromQuery] string token)
         {

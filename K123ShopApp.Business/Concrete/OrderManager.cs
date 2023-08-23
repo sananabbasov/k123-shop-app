@@ -8,6 +8,7 @@ using K123ShopApp.Core.Utilities.Results.Concrete.SuccessResults;
 using K123ShopApp.DataAccess.Abstract;
 using K123ShopApp.Entities.Concrete;
 using K123ShopApp.Entities.Dtos.OrderDtos;
+using K123ShopApp.Entities.Dtos.ProductDtos;
 using K123ShopApp.Entities.Dtos.UserDtos;
 using K123ShopApp.Entities.Enums;
 
@@ -40,7 +41,12 @@ namespace K123ShopApp.Business.Concrete
             //var result = BusinessRule.CheckRules(IsProductInStock(productIds));
             var mapper = _mapper.Map<List<Order>>(orderCreate);
             _orderDal.AddRange(userId, mapper);
-            _productService.ProductOrder(productIds, quantity);
+            var productOrder = orderCreate.Select(x => new ProductDecrementDto
+            {
+                ProductId = x.ProductId,
+                Quantity = x.Quantity
+            }).ToList();
+            _productService.ProductOrder(productOrder);
             return new SuccessResult();
         }
 

@@ -1,63 +1,44 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="K123ShopApp.Business/AutoMapper/MappingProfile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="K123ShopApp.WebApi/Program.cs">
     <Files>
-      <File FileName="K123ShopApp.Entities/Concrete/Order.cs" Line="12" Column="14" />
-      <File FileName="K123ShopApp.Entities/Concrete/BaseEntity.cs" Line="8" Column="44" />
-      <File FileName="K123ShopApp.Entities/Dtos/OrderDtos/OrderUserDto.cs" Line="12" Column="16" />
-      <File FileName="K123ShopApp.Entities/Dtos/OrderDtos/OrderCreateDto.cs" Line="14" Column="1" />
-      <File FileName="K123ShopApp.Entities/Enums/OrderEnum.cs" Line="4" Column="13" />
-      <File FileName="K123ShopApp.Business/Concrete/OrderManager.cs" Line="16" Column="40" />
-      <File FileName="K123ShopApp.DataAccess/Concrete/EntityFramework/EfOrderDal.cs" Line="14" Column="153" />
-      <File FileName="K123ShopApp.DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="21" Column="1" />
-      <File FileName="K123ShopApp.WebApi/Controllers/OrderController.cs" Line="49" Column="49" />
-      <File FileName="K123ShopApp.DataAccess/Abstract/IOrderDal.cs" Line="10" Column="8" />
-      <File FileName="K123ShopApp.Business/Abstract/IOrderService.cs" Line="12" Column="47" />
-      <File FileName="K123ShopApp.Entities/Dtos/UserDtos/UserOrderDto.cs" Line="6" Column="15" />
-      <File FileName="K123ShopApp.Business/AutoMapper/MappingProfile.cs" Line="53" Column="1" />
-      <File FileName="K123ShopApp.Core/Entities/Concrete/User.cs" Line="4" Column="15" />
-      <File FileName="K123ShopApp.Entities/Concrete/AppUser.cs" Line="11" Column="42" />
-      <File FileName="K123ShopApp.DataAccess/Abstract/IAppUserDal.cs" Line="11" Column="41" />
-      <File FileName="K123ShopApp.DataAccess/Concrete/EntityFramework/EfAppUserDal.cs" Line="14" Column="83" />
-      <File FileName="K123ShopApp.Business/Abstract/IAppUserService.cs" Line="13" Column="21" />
-      <File FileName="K123ShopApp.Business/Concrete/AppUserManager.cs" Line="43" Column="33" />
-      <File FileName="K123ShopApp.WebApi/Controllers/UserController.cs" Line="48" Column="1" />
-      <File FileName="K123ShopApp.Core/Utilities/Business/BusinessRule.cs" Line="11" Column="10" />
-      <File FileName="K123ShopApp.Business/DependencyResolvers/ServiceRegistration.cs" Line="30" Column="1" />
-      <File FileName="K123ShopApp.WebApi/Program.cs" Line="50" Column="9" />
+      <File FileName="K123ShopApp.WebApi/Program.cs" Line="53" Column="3" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V1/CategoryController.cs" Line="18" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V1/TestController.cs" Line="13" Column="5" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V1/OrderController.cs" Line="19" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V1/ProductController.cs" Line="18" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V1/UserController.cs" Line="16" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V1/WishListController.cs" Line="17" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/TestController.cs" Line="19" Column="9" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/CategoryController.cs" Line="14" Column="43" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/OrderController.cs" Line="19" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/ProductController.cs" Line="18" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/UserController.cs" Line="15" Column="54" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/WishListController.cs" Line="17" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="K123ShopApp" expanded="True">
-            <Node name="K123ShopApp.Business">
-              <Node name="Abstract" expanded="True" />
-              <Node name="AutoMapper" expanded="True">
-                <Node name="MappingProfile.cs" selected="True" />
-              </Node>
+            <Node name="K123ShopApp.Business" expanded="True">
               <Node name="Concrete" expanded="True" />
-              <Node name="DependencyResolvers" expanded="True" />
-            </Node>
-            <Node name="K123ShopApp.Core" expanded="True" />
-            <Node name="K123ShopApp.Entities">
-              <Node name="Concrete" expanded="True" />
-              <Node name="Dtos" expanded="True">
-                <Node name="OrderDtos" expanded="True" />
-                <Node name="UserDtos" expanded="True" />
-              </Node>
             </Node>
             <Node name="K123ShopApp.WebApi">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="V1" expanded="True" />
+                <Node name="V2" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.K123ShopApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -65,5 +46,5 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.K123ShopApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

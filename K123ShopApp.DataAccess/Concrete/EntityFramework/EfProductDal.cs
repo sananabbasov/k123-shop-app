@@ -2,6 +2,7 @@
 using K123ShopApp.Core.DataAccess.EntityFramework;
 using K123ShopApp.DataAccess.Abstract;
 using K123ShopApp.Entities.Concrete;
+using K123ShopApp.Entities.Dtos.ProductDtos;
 using Microsoft.EntityFrameworkCore;
 
 namespace K123ShopApp.DataAccess.Concrete.EntityFramework
@@ -15,19 +16,15 @@ namespace K123ShopApp.DataAccess.Concrete.EntityFramework
             return product;
         }
 
-        public void RemoveProductQuantity(List<int> productId, List<int> quantity)
+        public void RemoveProductQuantity(List<ProductDecrementDto> productDecrement)
         {
             using var context = new AppDbContext();
-            var products = context.Products
-                .Where(x => productId.Contains(x.Id)).ToList();
-
-            for (int i = 0; i < productId.Count; i++)
+            for (int i = 0; i < productDecrement.Count; i++)
             {
-                products.Select(x => { x.Quantity -= quantity[i]; return x; }).ToList();
+                var product = context.Products.FirstOrDefault(x=>x.Id == productDecrement[i].ProductId);
+                product.Quantity -= productDecrement[i].Quantity;
+                context.SaveChanges();
             }
-
-            context.Products.UpdateRange(products);
-            context.SaveChanges();
 
         }
     }

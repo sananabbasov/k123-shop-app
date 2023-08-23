@@ -79,9 +79,9 @@ namespace K123ShopApp.Business.Concrete
             return new SuccessDataResult<List<ProductRecentDto>>(mapper);
         }
 
-        public IResult ProductOrder(List<int> productId, List<int> quantity)
+        public IResult ProductOrder(List<ProductDecrementDto> productDecrement)
         {
-            _productDal.RemoveProductQuantity(productId, quantity);
+            _productDal.RemoveProductQuantity(productDecrement);
 
             return new SuccessResult();
         }

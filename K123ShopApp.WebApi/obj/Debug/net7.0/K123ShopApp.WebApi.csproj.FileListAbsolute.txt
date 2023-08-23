@@ -93,3 +93,5 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.WebApi/bin/Debug/net7.0/MassTransit.RabbitMqTransport.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.WebApi/bin/Debug/net7.0/Bogus.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.WebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.WebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.WebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
