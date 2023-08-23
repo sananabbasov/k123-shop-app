@@ -20,7 +20,8 @@ namespace K123ShopApp.Business.Concrete
             _mapper = mapper;
         }
 
-        public IResult TestMethod(){
+        public IResult TestMethod(int id)
+        {
             return new SuccessResult();
         }
         public IResult CreateCategory(CategoryCreateDto categoryCreate)
