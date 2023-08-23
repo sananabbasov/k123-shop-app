@@ -20,7 +20,7 @@ namespace K123ShopApp.Business.Concrete
             _mapper = mapper;
         }
 
-        public IResult TestMethod(int id)
+        public IResult TestMethodAll(int id)
         {
             return new SuccessResult();
         }
