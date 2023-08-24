@@ -1,11 +1,4 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.K123ShopApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -13,4 +6,43 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="K123ShopApp.WebApi/Controllers/V2/CategoryController.cs">
+    <Files>
+      <File FileName="K123ShopApp.Business/Abstract/ICategoryService.cs" Line="22" Column="5" />
+      <File FileName="K123ShopApp.Business/Concrete/CategoryManager.cs" Line="84" Column="1" />
+      <File FileName="K123ShopApp.WebApi/Controllers/V2/CategoryController.cs" Line="59" Column="1" />
+      <File FileName="K123ShopApp.Core/DataAccess/IRepositoryBase.cs" Line="18" Column="5" />
+      <File FileName="K123ShopApp.DataAccess/Abstract/ICategoryDal.cs" Line="6" Column="2" />
+      <File FileName="K123ShopApp.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" Line="15" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="K123ShopApp">
+            <Node name="K123ShopApp.Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="K123ShopApp.DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="K123ShopApp.WebApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="V2" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.K123ShopApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
