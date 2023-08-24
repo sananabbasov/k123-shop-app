@@ -74,6 +74,13 @@ namespace K123ShopApp.Business.Concrete
             _categoryDal.Update(findCategory);
             return new SuccessResult();
         }
+
+        public async Task<IResult> CreateCategoryAsync(CategoryCreateDto categoryCreate)
+        {
+            var mapCategory = _mapper.Map<Category>(categoryCreate);
+            await _categoryDal.AddCategoryAsync(mapCategory);
+            return new SuccessResult();
+        }
     }
 }
 

@@ -53,9 +53,9 @@ namespace K123ShopApp.WebApi.Controllers.V2
 
         [HttpPost("create")]
         [MapToApiVersion("2.0")]
-        public IActionResult Create([FromBody] CategoryCreateDto categoryCreate)
+        public async Task<IActionResult> Create([FromBody] CategoryCreateDto categoryCreate)
         {
-            var result = _categoryService.CreateCategory(categoryCreate);
+            var result = await _categoryService.CreateCategoryAsync(categoryCreate);
             return Ok(result);
         }
 

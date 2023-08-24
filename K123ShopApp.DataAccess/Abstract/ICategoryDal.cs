@@ -6,6 +6,7 @@ namespace K123ShopApp.DataAccess.Abstract
 {
 	public interface ICategoryDal : IRepositoryBase<Category>
 	{
+		Task AddCategoryAsync(Category category);
 	}
 }
 

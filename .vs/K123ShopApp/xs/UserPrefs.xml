@@ -1,44 +1,11 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="K123ShopApp.WebApi/Program.cs">
-    <Files>
-      <File FileName="K123ShopApp.WebApi/Program.cs" Line="53" Column="3" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V1/CategoryController.cs" Line="18" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V1/TestController.cs" Line="13" Column="5" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V1/OrderController.cs" Line="19" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V1/ProductController.cs" Line="18" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V1/UserController.cs" Line="16" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V1/WishListController.cs" Line="17" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V2/TestController.cs" Line="19" Column="9" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V2/CategoryController.cs" Line="14" Column="43" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V2/OrderController.cs" Line="19" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V2/ProductController.cs" Line="18" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V2/UserController.cs" Line="15" Column="54" />
-      <File FileName="K123ShopApp.WebApi/Controllers/V2/WishListController.cs" Line="17" Column="54" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="K123ShopApp" expanded="True">
-            <Node name="K123ShopApp.Business" expanded="True">
-              <Node name="Concrete" expanded="True" />
-            </Node>
-            <Node name="K123ShopApp.WebApi">
-              <Node name="Controllers" expanded="True">
-                <Node name="V1" expanded="True" />
-                <Node name="V2" expanded="True" />
-              </Node>
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.K123ShopApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.K123ShopApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -46,5 +13,4 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

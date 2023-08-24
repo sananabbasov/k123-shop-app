@@ -12,6 +12,9 @@ namespace K123ShopApp.Core.DataAccess
         void Delete(TEntity entity);
 		TEntity Get(Expression<Func<TEntity, bool>> filter);
 		List<TEntity> GetAll(Expression<Func<TEntity, bool>>? filter = null);
-	}
+
+        //Task AddAsync(TEntity entity);
+        //Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> filter);
+    }
 }
 
