@@ -16,8 +16,9 @@ namespace K123ShopApp.Business.Consumers
 
         public async Task Consume(ConsumeContext<SendEmailCommand> context)
         {
-            var message = $"https://localhost:7037/api/user/verifyemail?email={context.Message.Email}&token={context.Message.Token}";
-            //_mailSender.SendMail(context.Message.Email, message, true);
+            string text = File.ReadAllText(@"../K123ShopApp.Business/EmailTemplates/ConfirmationEmail.txt");
+            text = text.Replace("href='#'", $"href='https://localhost:7037/api/user/verifyemail?email={context.Message.Email}&token={context.Message.Token}'");
+            //_mailSender.SendMail(context.Message.Email, text, true);
         }
     }
 }

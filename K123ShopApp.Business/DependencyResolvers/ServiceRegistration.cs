@@ -6,6 +6,8 @@ using K123ShopApp.Business.Concrete;
 using K123ShopApp.Business.Consumers;
 using K123ShopApp.Core.EventBus;
 using K123ShopApp.Core.EventBus.RabbitMq;
+using K123ShopApp.Core.Utilities.Cashing;
+using K123ShopApp.Core.Utilities.Cashing.Microsoft;
 using K123ShopApp.Core.Utilities.MailHelper;
 using K123ShopApp.DataAccess.Abstract;
 using K123ShopApp.DataAccess.Concrete.EntityFramework;
@@ -20,6 +22,9 @@ namespace K123ShopApp.Business.DependencyResolvers
 	{
 		public static void AddBusinessRegistration(this IServiceCollection services)
 		{
+            services.AddMemoryCache();
+            services.AddScoped<ICacheService, MemoryCacheManager>();
+
             services.AddScoped<AppDbContext>();
 
 			services.AddScoped<IProductDal, EfProductDal>();

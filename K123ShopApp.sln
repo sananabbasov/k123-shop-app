@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.Business", "K12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.WebApi", "K123ShopApp.WebApi\K123ShopApp.WebApi.csproj", "{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.WebUI", "K123ShopApp.WebUI\K123ShopApp.WebUI.csproj", "{B37C844B-4AFB-4177-B854-F8AF478ABB0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

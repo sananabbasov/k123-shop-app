@@ -26,6 +26,9 @@
     <None Remove="Configurations\" />
     <None Remove="EventBus\" />
     <None Remove="EventBus\RabbitMq\" />
+    <None Remove="Utilities\Cashing\" />
+    <None Remove="Utilities\Cashing\Microsoft\" />
+    <None Remove="Utilities\Cashing\Redis\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -47,6 +50,9 @@
     <Folder Include="Configurations\" />
     <Folder Include="EventBus\" />
     <Folder Include="EventBus\RabbitMq\" />
+    <Folder Include="Utilities\Cashing\" />
+    <Folder Include="Utilities\Cashing\Microsoft\" />
+    <Folder Include="Utilities\Cashing\Redis\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />

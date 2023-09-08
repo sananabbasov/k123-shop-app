@@ -38,7 +38,7 @@ namespace K123ShopApp.DataAccess.DataSeeder
                 fakeProducts.RuleFor(x => x.IsDeleted, y => y.Random.Bool());
                 fakeProducts.RuleFor(x => x.IsFeatured, y => y.Random.Bool());
                 fakeProducts.RuleFor(x => x.CreatedDate, y => y.Date.Recent());
-                fakeProducts.RuleFor(x => x.PhotoUrl, y => y.Image.LoremPixelUrl());
+                fakeProducts.RuleFor(x => x.PhotoUrl, y => "https://source.unsplash.com/random/420x420?sig="+ y.Random.Int(1, 300));
 				fakeProducts.RuleFor(x => x.CategoryId, y => y.Random.Int(1, 25));
                 fakeProducts.RuleFor(x => x.Price, y => y.Random.Int(100, 1000));
 				fakeProducts.RuleFor(x => x.Description, y => y.Commerce.ProductDescription());

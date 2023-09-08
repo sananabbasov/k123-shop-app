@@ -17,6 +17,7 @@
     <None Remove="Dtos\SpecificationDtos\" />
     <None Remove="Dtos\WishListDtos\" />
     <None Remove="Enums\" />
+    <None Remove="Dtos\CartDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Concrete\" />
@@ -29,6 +30,7 @@
     <Folder Include="Dtos\SpecificationDtos\" />
     <Folder Include="Dtos\WishListDtos\" />
     <Folder Include="Enums\" />
+    <Folder Include="Dtos\CartDtos\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\K123ShopApp.Core\K123ShopApp.Core.csproj" />

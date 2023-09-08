@@ -1,5 +1,6 @@
 ﻿using System;
 using K123ShopApp.Core.Utilities.Results.Abstract;
+using K123ShopApp.Entities.Dtos.CartDtos;
 using K123ShopApp.Entities.Dtos.ProductDtos;
 
 namespace K123ShopApp.Business.Abstract
@@ -10,7 +11,8 @@ namespace K123ShopApp.Business.Abstract
 		IResult UpdateProduct(ProductUpdateDto productUpdate);
 		IResult RemoveProduct(int id);
 		IDataResult<ProductDetailDto> GetProductById(int id);
-		IDataResult<List<ProductFeaturedDto>> GetFeaturedProducts();
+		IDataResult<List<ProductDetailDto>> GetProductsById(List<CartItemDto> cartItems);
+        IDataResult<List<ProductFeaturedDto>> GetFeaturedProducts();
 		IDataResult<List<ProductRecentDto>> GetRecentProduct();
 		IDataResult<List<ProductFilterDto>> FilterProduct(int categoryId, decimal minPrice, decimal maxPrice);
 		IDataResult<List<ProductDto>> GetAllProdcuts();

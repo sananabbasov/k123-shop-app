@@ -25,19 +25,30 @@ namespace K123ShopApp.Core.DataAccess.EntityFramework
             context.SaveChanges();
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter, bool track = true)
         {
             using var context = new TContext();
+            var data = context.Set<TEntity>().AsQueryable();
+            if (!track)
+            {
+                data = context.Set<TEntity>().AsNoTracking();
+            }
 
-            return context.Set<TEntity>().FirstOrDefault(filter);
+            return data.FirstOrDefault(filter);
         }
 
-        public List<TEntity> GetAll(Expression<Func<TEntity, bool>>? filter = null)
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>>? filter = null, bool track = true)
         {
             using var context = new TContext();
             return filter == null
                    ? context.Set<TEntity>().ToList()
                    : context.Set<TEntity>().Where(filter).ToList();
+        }
+
+        public void SaveEntity()
+        {
+            using var context = new TContext();
+            context.SaveChanges();
         }
 
         public void Update(TEntity entity)

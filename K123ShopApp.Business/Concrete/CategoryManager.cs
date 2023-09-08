@@ -65,7 +65,7 @@ namespace K123ShopApp.Business.Concrete
         public IResult UpdateCategory(int id, CategoryUpdateDto category)
         {
             var mapCategory = _mapper.Map<Category>(category);
-            var findCategory = _categoryDal.Get(x => x.Id == id);
+            var findCategory = _categoryDal.Get(x => x.Id == id, false);
             findCategory.CategoryName = mapCategory.CategoryName;
             findCategory.CreatedDate = mapCategory.CreatedDate;
             findCategory.PhotoUrl = mapCategory.PhotoUrl;
