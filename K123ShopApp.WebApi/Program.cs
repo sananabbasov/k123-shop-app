@@ -103,11 +103,18 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddBusinessRegistration();
 
 var app = builder.Build();
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
+    c.SwaggerEndpoint("v2/swagger.json", "MyAPI V2");
+});
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+    //var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
     app.UseSwagger();
     app.UseSwaggerUI(c =>
