@@ -13,3 +13,18 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Entities/obj/Debug/net7.0/refint/K123ShopApp.Entities.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Entities/obj/Debug/net7.0/K123ShopApp.Entities.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Entities/obj/Debug/net7.0/ref/K123ShopApp.Entities.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\bin\Debug\net7.0\K123ShopApp.Entities.deps.json
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\bin\Debug\net7.0\K123ShopApp.Entities.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\bin\Debug\net7.0\K123ShopApp.Entities.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\bin\Debug\net7.0\K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\bin\Debug\net7.0\K123ShopApp.Core.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.csproj.CopyComplete
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\refint\K123ShopApp.Entities.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\K123ShopApp.Entities.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Entities\obj\Debug\net7.0\ref\K123ShopApp.Entities.dll

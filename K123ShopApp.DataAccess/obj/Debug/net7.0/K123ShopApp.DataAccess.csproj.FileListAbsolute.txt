@@ -17,3 +17,22 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.DataAccess/obj/Debug/net7.0/K123ShopApp.DataAccess.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.DataAccess/obj/Debug/net7.0/K123ShopApp.DataAccess.genruntimeconfig.cache
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.DataAccess/obj/Debug/net7.0/ref/K123ShopApp.DataAccess.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.DataAccess.deps.json
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.DataAccess.runtimeconfig.json
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.DataAccess.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.DataAccess.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.Entities.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.Core.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\bin\Debug\net7.0\K123ShopApp.Entities.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.csproj.CopyComplete
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\refint\K123ShopApp.DataAccess.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\K123ShopApp.DataAccess.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.DataAccess\obj\Debug\net7.0\ref\K123ShopApp.DataAccess.dll

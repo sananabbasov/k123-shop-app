@@ -3991,36 +3991,43 @@
     ]
   },
   "packageFolders": {
-    "/Users/sanan/.nuget/packages/": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.DataAccess/K123ShopApp.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.DataAccess\\K123ShopApp.DataAccess.csproj",
       "projectName": "K123ShopApp.DataAccess",
-      "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.DataAccess/K123ShopApp.DataAccess.csproj",
-      "packagesPath": "/Users/sanan/.nuget/packages/",
-      "outputPath": "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.DataAccess/obj/",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.DataAccess\\K123ShopApp.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/sanan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Core/K123ShopApp.Core.csproj": {
-              "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Core/K123ShopApp.Core.csproj"
+            "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.Core\\K123ShopApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.Core\\K123ShopApp.Core.csproj"
             },
-            "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Entities/K123ShopApp.Entities.csproj": {
-              "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Entities/K123ShopApp.Entities.csproj"
+            "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.Entities\\K123ShopApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Deploy\\k123-shop-app\\K123ShopApp.Entities\\K123ShopApp.Entities.csproj"
             }
           }
         }
@@ -4070,7 +4077,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

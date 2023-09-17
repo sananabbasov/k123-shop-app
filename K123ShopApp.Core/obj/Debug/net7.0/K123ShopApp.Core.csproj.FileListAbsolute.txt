@@ -10,3 +10,15 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Core/obj/Debug/net7.0/refint/K123ShopApp.Core.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Core/obj/Debug/net7.0/K123ShopApp.Core.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Core/obj/Debug/net7.0/ref/K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\bin\Debug\net7.0\K123ShopApp.Core.deps.json
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\bin\Debug\net7.0\K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\bin\Debug\net7.0\K123ShopApp.Core.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\refint\K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\K123ShopApp.Core.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Core\obj\Debug\net7.0\ref\K123ShopApp.Core.dll

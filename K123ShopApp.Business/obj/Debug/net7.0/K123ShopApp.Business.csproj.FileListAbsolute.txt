@@ -17,3 +17,22 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Business/obj/Debug/net7.0/refint/K123ShopApp.Business.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Business/obj/Debug/net7.0/K123ShopApp.Business.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K123/CSharp/Web/K123ShopApp/K123ShopApp.Business/obj/Debug/net7.0/ref/K123ShopApp.Business.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Business.deps.json
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Business.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Business.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Core.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.DataAccess.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Entities.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.DataAccess.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Core.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\bin\Debug\net7.0\K123ShopApp.Entities.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.csproj.CopyComplete
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\refint\K123ShopApp.Business.dll
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\K123ShopApp.Business.pdb
+C:\Users\Asus\Desktop\Deploy\k123-shop-app\K123ShopApp.Business\obj\Debug\net7.0\ref\K123ShopApp.Business.dll
