@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: dockerfile  # Use your Dockerfile's name if it's different
+    ports:
+      - 80:80
+    restart: always
