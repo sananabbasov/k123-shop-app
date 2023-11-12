@@ -52,10 +52,10 @@ namespace K123ShopApp.WebApi.Controllers.V1
         }
 
         [HttpGet("getall")]
-        public IActionResult GetAllProducts()
+        public IActionResult GetAllProducts(int? page=1)
         {
-            var result = _productService.GetAllProdcuts();
-            return Ok(result);
+            var result = _productService.GetAllProdcuts(page.Value);
+            return Ok(result.Data);
         }
 
         [HttpGet("featured")]
@@ -69,7 +69,7 @@ namespace K123ShopApp.WebApi.Controllers.V1
         public IActionResult GetRecentProducts()
         {
             var result = _productService.GetRecentProduct();
-            return Ok(result);
+            return Ok(result.Data);
         }
 
         [HttpGet("filter")]

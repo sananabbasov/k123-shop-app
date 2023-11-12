@@ -27,7 +27,7 @@ namespace K123ShopApp.WebApi.Controllers.V1
         public IActionResult UserLogin([FromBody]UserLoginDto userLogin)
         {
             var result = _appUserService.LoginUser(userLogin);
-            return Ok(result);
+            return Ok(result.Data);
         }
 
 

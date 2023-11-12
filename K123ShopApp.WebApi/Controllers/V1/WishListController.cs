@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using K123ShopApp.Business.Abstract;
 using K123ShopApp.Entities.Dtos.WishListDtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;
 
@@ -29,6 +30,7 @@ namespace K123ShopApp.WebApi.Controllers.V1
 
 
         [HttpPost("add")]
+        [Authorize]
         public IActionResult Add([FromQuery] WishListAddItemDto wishListAdd)
         {
             var _bearer_token = Request.Headers[HeaderNames.Authorization].ToString().Replace("Bearer ", "");
@@ -41,6 +43,7 @@ namespace K123ShopApp.WebApi.Controllers.V1
 
 
         [HttpGet("items")]
+        [Authorize]
         public IActionResult GetUserWishList()
         {
             var _bearer_token = Request.Headers[HeaderNames.Authorization].ToString().Replace("Bearer ", "");

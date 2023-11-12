@@ -15,7 +15,7 @@ namespace K123ShopApp.Business.Abstract
         IDataResult<List<ProductFeaturedDto>> GetFeaturedProducts();
 		IDataResult<List<ProductRecentDto>> GetRecentProduct();
 		IDataResult<List<ProductFilterDto>> FilterProduct(int categoryId, decimal minPrice, decimal maxPrice);
-		IDataResult<List<ProductDto>> GetAllProdcuts();
+		IDataResult<ProductResponseDto> GetAllProdcuts(int currentPage);
 		IDataResult<bool> CheckProductStock(List<int> ids);
 		IResult ProductOrder(List<ProductDecrementDto> productDecrement);
 	}

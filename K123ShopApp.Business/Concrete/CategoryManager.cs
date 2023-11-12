@@ -52,7 +52,7 @@ namespace K123ShopApp.Business.Concrete
         {
             var categories = _categoryDal.GetAll(x => x.IsDeleted == false && x.IsFeatured == true);
             var mapCategories = _mapper.Map<List<CategoryHomeDto>>(categories);
-            return new SuccessDataResult<List<CategoryHomeDto>>(mapCategories);
+            return new SuccessDataResult<List<CategoryHomeDto>>(mapCategories.Take(6).ToList());
         }
 
         public IDataResult<List<CategoryNavbarDto>> GetNavbarCategories()

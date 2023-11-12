@@ -44,7 +44,7 @@ namespace K123ShopApp.Business.Concrete
             return new SuccessDataResult<UserOrderDto>(mapUser);
         }
 
-        public IResult LoginUser(UserLoginDto userLogin)
+        public IDataResult<UserInfoDto> LoginUser(UserLoginDto userLogin)
         {
 
 
@@ -58,12 +58,21 @@ namespace K123ShopApp.Business.Concrete
             {
                 user.LoginAttempt += 1;
                 _appUserDal.Update(user);
-                return new ErrorResult();
+                return new ErrorDataResult<UserInfoDto>(null);
             }
 
             var token = Token.CreateToken(user, "User");
 
-            return new SuccessResult(token);
+            UserInfoDto userInfo = new()
+            {
+                Id = user.Id,
+                Email = user.Email,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Token = token
+            };
+
+            return new SuccessDataResult<UserInfoDto>(userInfo);
 
         }
 

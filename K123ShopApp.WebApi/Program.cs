@@ -19,6 +19,20 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var corsRuls = "_corsRules";
+
+
+builder.Services.AddCors(o =>
+{
+    o.AddPolicy(corsRuls,
+         p =>
+         {
+             p.AllowAnyHeader();
+             p.AllowAnyMethod();
+             p.AllowAnyOrigin();
+         }
+        );
+});
 
 builder.Services.AddControllers()
          .AddJsonOptions(options =>
@@ -104,6 +118,7 @@ builder.Services.AddBusinessRegistration();
 
 var app = builder.Build();
 
+app.UseCors(corsRuls);
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

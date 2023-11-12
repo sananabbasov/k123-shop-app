@@ -56,18 +56,6 @@ namespace K123ShopApp.Business.Concrete
             return new SuccessDataResult<List<ProductFilterDto>>(mapper);
         }
 
-        //[CasheManager]
-        public IDataResult<List<ProductDto>> GetAllProdcuts()
-        {
-
-            var products = _productDal.GetAll().OrderByDescending(x => x.Id);
-            //string jsonString = JsonSerializer.Serialize(products);
-            //_cashService.Add("productlist", jsonString, 10);
-            //var res = _cashService.Get<List<ProductDto>>("productlist");
-            var mapper = _mapper.Map<List<ProductDto>>(products);
-            return new SuccessDataResult<List<ProductDto>>(mapper);
-        }
-
         public IDataResult<List<ProductFeaturedDto>> GetFeaturedProducts()
         {
             
@@ -133,6 +121,22 @@ namespace K123ShopApp.Business.Concrete
             var mapper = _mapper.Map<Product>(productUpdate);
             _productDal.Update(mapper);
             return new SuccessResult();
+        }
+
+        public IDataResult<ProductResponseDto> GetAllProdcuts(int currentPage)
+        {
+            var products = _productDal.GetAll().OrderByDescending(x => x.Id).Skip(currentPage * 12 - 1).Take(12);
+            //string jsonString = JsonSerializer.Serialize(products);
+            //_cashService.Add("productlist", jsonString, 10);
+            //var res = _cashService.Get<List<ProductDto>>("productlist");
+            var mapper = _mapper.Map<List<ProductDto>>(products);
+            ProductResponseDto productResponse = new()
+            {
+                PageSize = _productDal.GetAll().Count() / 12,
+                CurrentSize = currentPage,
+                Products = mapper
+            };
+            return new SuccessDataResult<ProductResponseDto>(productResponse);
         }
     }
 }

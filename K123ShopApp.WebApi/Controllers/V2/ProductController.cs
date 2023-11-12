@@ -58,8 +58,8 @@ namespace K123ShopApp.WebApi.Controllers.V2
         [HttpGet("getall")]
         public IActionResult GetAllProducts()
         {
-            var result = _productService.GetAllProdcuts();
-            return Ok(result);
+            var result = _productService.GetAllProdcuts(1);
+            return Ok(result.Data);
         }
 
         [MapToApiVersion("2.0")]

@@ -6,7 +6,7 @@ namespace K123ShopApp.Business.Abstract
 {
 	public interface IAppUserService
 	{
-		IResult LoginUser(UserLoginDto userLogin);
+		IDataResult<UserInfoDto> LoginUser(UserLoginDto userLogin);
         Task<IResult> Register(UserRegisterDto userRegister);
 		IResult VerifyEmail(string email, string verifyToken);
         IDataResult<UserInfoDto> GetUserInfo(int id);
