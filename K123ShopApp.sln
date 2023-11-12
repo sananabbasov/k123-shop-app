@@ -1,19 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.Core", "K123ShopApp.Core\K123ShopApp.Core.csproj", "{667FE9C7-DD9B-4BBF-9854-DCA3552D0404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K123ShopApp.Core", "K123ShopApp.Core\K123ShopApp.Core.csproj", "{667FE9C7-DD9B-4BBF-9854-DCA3552D0404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.Entities", "K123ShopApp.Entities\K123ShopApp.Entities.csproj", "{B6CCFCAE-E10B-44C4-908F-76A23B0FB5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K123ShopApp.Entities", "K123ShopApp.Entities\K123ShopApp.Entities.csproj", "{B6CCFCAE-E10B-44C4-908F-76A23B0FB5F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.DataAccess", "K123ShopApp.DataAccess\K123ShopApp.DataAccess.csproj", "{DE170569-367C-4792-8700-CC5066D75AAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K123ShopApp.DataAccess", "K123ShopApp.DataAccess\K123ShopApp.DataAccess.csproj", "{DE170569-367C-4792-8700-CC5066D75AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.Business", "K123ShopApp.Business\K123ShopApp.Business.csproj", "{75382EFF-AFDC-43C0-8337-B909713427D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K123ShopApp.Business", "K123ShopApp.Business\K123ShopApp.Business.csproj", "{75382EFF-AFDC-43C0-8337-B909713427D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.WebApi", "K123ShopApp.WebApi\K123ShopApp.WebApi.csproj", "{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K123ShopApp.WebUI", "K123ShopApp.WebUI\K123ShopApp.WebUI.csproj", "{B37C844B-4AFB-4177-B854-F8AF478ABB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K123ShopApp.WebApi", "K123ShopApp.WebApi\K123ShopApp.WebApi.csproj", "{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3AEFA71-862D-49E6-A9FD-7EDF12E544FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B37C844B-4AFB-4177-B854-F8AF478ABB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

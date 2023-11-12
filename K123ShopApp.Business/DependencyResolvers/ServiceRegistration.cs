@@ -65,7 +65,7 @@ namespace K123ShopApp.Business.DependencyResolvers
 
                 config.UsingRabbitMq((ctx, cfg) =>
                 {
-                    cfg.Host("amqp://guest:guest@localhost");
+                    cfg.Host("amqps://qqgrfgqw:sTvsCku3bUTWWpfpGINxDc9EN0TotHSE@cow.rmq2.cloudamqp.com/qqgrfgqw");
                     cfg.Message<SendEmailCommand>(x => x.SetEntityName("SendEmailCommand"));
 
                     cfg.ReceiveEndpoint("send-email-command", c =>
